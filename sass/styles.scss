@@ -1,14 +1,34 @@
-@import 'foundation';
-// @import './partials/foundation-push-pull-patch';
+@import 'partials/settings';
+
+@import 'foundation/components/grid';
+@import 'foundation/components/buttons';
+@import 'foundation/components/top-bar';
+@import 'foundation/components/visibility';
 
 //Media Queries
 
 
 
 body {
-background-color : red;
+background-color : #eee;
 }
 
 #block-a, #block-b, #block-c, #block-d  {
   border: 1px solid black;
 }
+#block-a {
+  background-color : green;
+}
+#block-b {
+  background-color : blue;
+}
+#block-c {
+  background-color : yellow;
+}
+#block-d {
+  background-color : yellowgreen;
+}
+#block-e {
+  background-color : maroon;
+}
+
