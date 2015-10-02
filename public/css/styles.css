@@ -7794,6 +7794,10 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important; } }
 
-/* line 7, stdin */
+/* line 8, stdin */
 body {
   background-color: red; }
+
+/* line 12, stdin */
+#block-a, #block-b, #block-c, #block-d {
+  border: 1px solid black; }
